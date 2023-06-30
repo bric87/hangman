@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    box-sizing: inherit;
+    margin: 0;
+    margin: inherit;
+    padding: 0;
+    padding: inherit;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(63, 50, 74);
+    color: rgb(255, 255, 235)
+}
+
+#hangman{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin: 3%;
+}
+
+
+
+#word-list span{
+    border-bottom: 2px solid rgb(132, 114, 134);
+    font-family: 'arial';
+    margin: .2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    display: inline-block;
+    text-align: center;
+}
+#word-list span.space{
+    border-bottom: none;
+}
+
+#line{
+    background-color: rgb(255, 255, 235);
+    height: .2rem;
+    width:700px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+#guess{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+#new-game{
+    font-size: 1.5rem;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(145, 77, 153);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-top: 2%;;
+}
+
+#new-game:hover{
+    background-color: rgb(179, 109, 187);
+}
+
+#word-reveal{
+    margin-top: 5%;
+    text-align: center;
+}
